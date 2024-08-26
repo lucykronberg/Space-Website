@@ -1,6 +1,10 @@
 h1{
 	
 	border-style: solid;
+	background-color: white;
+}
+h2 {
+	border: 3px dotted white;
 }
 
 body {
@@ -16,4 +20,14 @@ body {
 }
 #para2 {
 	width:45%;
+}
+
+p::first-line {
+  color: white;
+  font-size: 25px;
+  font-variant: small-caps;
+}
+
+p.a {
+  font: 18px small-caps;
 }
